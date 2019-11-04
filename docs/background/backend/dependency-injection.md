@@ -1,7 +1,13 @@
 ---
-title: dependency injection
-permalink: /dependency-injection/
+layout: default
+title: "dependency injection"
+parent: "backend"
+grand_parent: "background"
+nav_order: 1
+has_children: true
+# permalink: "docs/background/backend/dependency-injection"
 ---
+
 
 # Dependency Injection
 

@@ -1,21 +1,58 @@
-# Ef Core, Lambda
+---
+layout: default
+title: "개요"
+nav_order: 0
+---
 
-## 잠깐! 배경 이론 훑기
+# 스터디 개요
 
-[dependency injection 설명, 샘플]({{ 'dependency-injection' | relative_url }})
+## 목적
 
-## Tutorial 참조자료
+* ORM library인 Ef-core를 연습한다.
 
-1. [Add .NET Core DI and Config Goodness to AWSLambda Functions](https://blog.tonysneed.com/2018/12/16/add-net-core-di-and-config-goodness-to-aws-lambda-functions/)
-2. [IDesignTimeDbContextFactory and Dependency Injection: A Love Story](https://blog.tonysneed.com/2018/12/20/idesigntimedbcontextfactory-and-dependency-injection-a-love-story/)
-3. [Use EF Core with AWS Lambda Functions](https://blog.tonysneed.com/2018/12/21/use-ef-core-with-aws-lambda-functions/)
+* Domain-Driven Design를 기반으로 한 Reactive Architecture를 이용해 간단한 Backend 서비스를 만든다.
 
-### 참조자료의 목적
+* rxjs, ngrx를 기반으로 한 Reactive Structure의 Frontend 서비스를 만든다.
 
-1. aws를 사용하며 일반적 접근법이 가능한 Lambda application을 쓴다
+* aws에 backend, frontend 서비스를 올린다.
 
-2. 그러나 상황에 따라서 Serverless application처럼 풍부한 dependency injection system을 쓸 수 있으면 좋겠다
+<br>
 
-3. 그러기 위해선 필요한 service의 dependency injection을 직접 구현할 수 있어야겠다.
+## 계획
 
-** 스터디에서는 aws lambda를 동작시키는 것과, .net core의 핵심 중 하나인 dependency injection을 배운다.
+### 1. **git, github**
+
+8월 진행 내용을 채울 예정
+
+### 2. **ef core**
+
+8~9월 진행 내용을 채울 예정
+
+### 3. **aws basic study**
+
+10월 진행 내용을 채울 예정
+
+### 4. **aws and .net core backend**
+
+- background : dependency injection
+- lambda & dotnet core tutorial 1
+- lambda & dotnet core tutorial 2
+- lambda & dotnet core tutorial 3
+
+### 5. **DDD and reactive architecture**
+
+- DDD: Concept, Aggregate
+- DDD: Entity, Value Object
+- ORM: ef core setting
+- Service: CRUD
+- buffer
+
+### 6. **DDD and reactive architecture**
+
+TBD
+
+### 7. **angular architecture**
+
+TBD
+
+

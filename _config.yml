@@ -1,4 +1,5 @@
-theme: jekyll-theme-architect
+remote_theme: marsceill/just-the-docs
+# theme: just-the-docs
 
 plugins:
   - jekyll-gist
