@@ -1,5 +1,3 @@
-remote_theme: marsceill/just-the-docs
-# theme: just-the-docs
-
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-gist
