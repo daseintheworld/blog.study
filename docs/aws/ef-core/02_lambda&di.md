@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "1. DI setting"
-parent: "aws lambda & ef-core"
-grand_parent: "AWS"
+title: "1. dependency injection"
+parent: "lambda & ef-core"
+grand_parent: "aws"
 nav_order: 2
 has_children: true
 ---

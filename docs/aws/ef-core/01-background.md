@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "0. background"
-parent: "aws lambda & ef-core"
-grand_parent: "AWS"
+parent: "lambda & ef-core"
+grand_parent: "aws"
 nav_order: 1
 has_children: true
 ---

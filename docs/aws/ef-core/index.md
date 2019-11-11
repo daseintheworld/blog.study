@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "aws lambda & ef-core"
-nav_order: 1
+title: "lambda & ef-core"
+nav_order: 2
 has_children: true
-parent: "AWS"
+parent: "aws"
 ---
 
 ### 주제의 목적

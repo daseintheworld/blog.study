@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "https1(최다영)"
-parent: "frontend"
+parent: "web"
 grand_parent: "background"
 nav_order: 1
 has_children: true

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "무중단배포(김승용)"
-parent: "backend"
+title: "no downtime deploy(김승용)"
+parent: "cloud"
 grand_parent: "background"
 nav_order: 2
 has_children: true

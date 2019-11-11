@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "dependency injection"
-parent: "backend"
+parent: "dotnet-core"
 grand_parent: "background"
 nav_order: 1
 has_children: true
