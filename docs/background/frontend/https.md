@@ -10,7 +10,7 @@ has_children: true
 
 
 # What is https
-https://i.imgur.com/4GHgl0T.png
+![image](https://i.imgur.com/4GHgl0T.png)
 
 **HyperText Tranfer Protocol** : HTML 같은 문서를 웹 브라우저(Client)가 웹 서버(Server)간의 자원을 주고 받을 때 쓰는 통신 규약
 
@@ -21,9 +21,10 @@ SSL(Secure Sockey Layer)프로토콜을 이용하여 보안상의 문제를 해�
 
 # SSL steps
 
-https://www.ibm.com/support/knowledgecenter/SSFKSJ_7.1.0/com.ibm.mq.doc/sy10660a.gif
+[Link](https://www.ibm.com/support/knowledgecenter/SSFKSJ_7.1.0/com.ibm.mq.doc/sy10660a.gif)
 
-https://i.imgur.com/YIfy1wK.png
+![image](https://i.imgur.com/YIfy1wK.png)
+
 
 1.   https:// 사용하여 SSL로 암호화된 페이지를 요청
 
