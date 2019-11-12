@@ -4,7 +4,6 @@ title: "no downtime deploy(김승용)"
 parent: "cloud"
 grand_parent: "background"
 nav_order: 2
-has_children: true
 # permalink: "docs/background/backend/dependency-injection"
 ---
 
