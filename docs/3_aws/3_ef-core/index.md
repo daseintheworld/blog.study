@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "lambda & ef-core"
-nav_order: 2
+nav_order: 3
 has_children: true
 parent: "aws"
 ---
