@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "code review(깁소영)"
+title: "code review(김소영)"
 parent: "dotnet-core"
 grand_parent: "background"
 nav_order: 2
