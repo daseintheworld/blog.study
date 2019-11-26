@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "no downtime deploy(김승용)"
+title: "ZD deployment1(김승용)"
 parent: "cloud"
 grand_parent: "background"
 nav_order: 2
 # permalink: "docs/background/backend/dependency-injection"
 ---
 
-# 무중단 배포
+## Zero Downtime Deployment(무중단 배포) 소개
 ## 배포 전략 : Rolling, Blue/Green, Canary
 
 - - - -
