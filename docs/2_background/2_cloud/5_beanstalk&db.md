@@ -3,7 +3,7 @@ layout: default
 title: "beanstalk&database(김혜수)"
 parent: "cloud"
 grand_parent: "background"
-nav_order: 4
+nav_order: 5
 # permalink: "docs/background/backend/dependency-injection"
 ---
 
