@@ -2,7 +2,7 @@
 layout: default
 title: "0. background"
 parent: "lambda & ef-core"
-grand_parent: "aws"
+grand_parent: "aws (serverless)"
 nav_order: 1
 has_children: true
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "0. lambda & dotnet core"
 parent: "lambda & dotnet core"
-grand_parent: "aws"
+grand_parent: "aws (serverless)"
 nav_order: 0
 ---
 

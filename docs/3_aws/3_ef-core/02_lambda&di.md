@@ -2,7 +2,7 @@
 layout: default
 title: "1. dependency injection"
 parent: "lambda & ef-core"
-grand_parent: "aws"
+grand_parent: "aws (serverless)"
 nav_order: 2
 has_children: true
 ---

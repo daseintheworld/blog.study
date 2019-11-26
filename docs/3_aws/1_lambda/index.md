@@ -3,7 +3,7 @@ layout: default
 title: "lambda"
 nav_order: 1
 has_children: true
-parent: "aws"
+parent: "aws (serverless)"
 ---
 
 ### 주제의 목적

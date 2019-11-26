@@ -3,7 +3,7 @@ layout: default
 title: "lambda & ef-core"
 nav_order: 3
 has_children: true
-parent: "aws"
+parent: "aws (serverless)"
 ---
 
 ### 주제의 목적

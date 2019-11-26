@@ -2,7 +2,7 @@
 layout: default
 title: "1. custom runtime"
 parent: "lambda"
-grand_parent: "aws"
+grand_parent: "aws (serverless)"
 nav_order: 1
 ---
 

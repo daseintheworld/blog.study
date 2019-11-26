@@ -3,7 +3,7 @@ layout: default
 title: "lambda & dotnet core"
 nav_order: 2
 has_children: true
-parent: "aws"
+parent: "aws (serverless)"
 ---
 
 ### 주제의 목적

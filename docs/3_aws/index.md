@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "aws"
+title: "aws (serverless)"
 nav_order: 3
 has_children: true
 ---
