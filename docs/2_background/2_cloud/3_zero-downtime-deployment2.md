@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ZD deploy2(김승용)"
+title: "ZD deployment2(김승용)"
 parent: "cloud"
 grand_parent: "background"
 nav_order: 3
