@@ -4,7 +4,6 @@ title: "lambda & DDD(박진경)"
 parent: "cloud"
 grand_parent: "background"
 nav_order: 1
-# permalink: "docs/background/backend/dependency-injection"
 ---
 
 ## Lambda in DDD Architecture

@@ -5,7 +5,7 @@ parent: "dotnet-core"
 grand_parent: "background"
 nav_order: 2
 has_children: true
-# permalink: "docs/background/backend/dependency-injection"
+
 ---
 
 # Code Review

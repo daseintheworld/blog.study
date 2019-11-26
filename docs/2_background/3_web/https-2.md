@@ -5,7 +5,7 @@ parent: "web"
 grand_parent: "background"
 nav_order: 2
 has_children: true
-# permalink: "docs/background/backend/dependency-injection"
+
 ---
 
 # API를 배포 후 내 도메인과 연결

@@ -4,7 +4,6 @@ title: "ZD deployment1(김승용)"
 parent: "cloud"
 grand_parent: "background"
 nav_order: 2
-# permalink: "docs/background/backend/dependency-injection"
 ---
 
 ## Zero Downtime Deployment(무중단 배포) 소개

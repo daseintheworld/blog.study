@@ -4,7 +4,7 @@ title: "beanstalk&database(김혜수)"
 parent: "cloud"
 grand_parent: "background"
 nav_order: 5
-# permalink: "docs/background/backend/dependency-injection"
+
 ---
 
 EC2 Beanstalk - Db 연결
