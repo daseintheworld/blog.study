@@ -7,6 +7,11 @@ nav_order: 1
 has_children: true
 ---
 
+### **문서 목적**
+
+* aws 기반 msa를 설계하는데 핵심 중 하나인 SAM에 대해 소개한다.
+* lambda 프로그래밍과 관련되어 중요한 것을 요약한다.
+
 SAM : Serverless Application Model
 
 ### **정의**
