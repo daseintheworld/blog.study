@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "ZD deployment1(김승용)"
-parent: "cloud"
-grand_parent: "background"
-nav_order: 2
+title: "• zero downtime1(김승용)"
+parent: "deployment"
+grand_parent: "study(방법론)"
+nav_order: 6
 ---
 
 ## Zero Downtime Deployment(무중단 배포) 소개

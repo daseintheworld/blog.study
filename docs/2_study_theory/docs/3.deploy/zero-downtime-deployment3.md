@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "ZD deployment3(김승용)"
-parent: "cloud"
-grand_parent: "background"
-nav_order: 4
+title: "• zero downtime3(김승용)"
+parent: "deployment"
+grand_parent: "study(방법론)"
+nav_order: 8
 ---
 ## Zero Downtime Deployment(무중단 배포) springboot를 이용한 설명 사례
 

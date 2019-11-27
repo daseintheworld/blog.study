@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "background"
+title: "study(방법론)"
 nav_order: 2
 has_children: true
 ---

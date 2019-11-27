@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "lambda & DDD(박진경)"
-parent: "cloud"
-grand_parent: "background"
+title: "• lambda & DDD(박진경)"
+parent: "architecture"
+grand_parent: "study(방법론)"
 nav_order: 1
 ---
 

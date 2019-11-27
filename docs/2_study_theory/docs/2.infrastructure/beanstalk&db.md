@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "beanstalk&database(김혜수)"
-parent: "cloud"
-grand_parent: "background"
+title: "• beanstalk&database(김혜수)"
+parent: "infrastructure"
+grand_parent: "study(방법론)"
 nav_order: 5
 
 ---

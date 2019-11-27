@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "0. plan"
-parent: "architecture"
-grand_parent: "backend (msa)"
+title: "• plan"
+parent: "aws architecture"
+grand_parent: "backend project"
 nav_order: 0
 ---
 ## backend architecture implementation plan

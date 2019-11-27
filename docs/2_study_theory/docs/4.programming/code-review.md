@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "code review(김소영)"
-parent: "dotnet-core"
-grand_parent: "background"
+title: "• code review(김소영)"
+parent: "programming"
+grand_parent: "study(방법론)"
 nav_order: 2
 has_children: true
 

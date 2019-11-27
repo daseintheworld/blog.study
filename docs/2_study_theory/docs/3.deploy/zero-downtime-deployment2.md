@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "ZD deployment2(김승용)"
-parent: "cloud"
-grand_parent: "background"
-nav_order: 3
+title: "• zero downtime2(김승용)"
+parent: "deployment"
+grand_parent: "study(방법론)"
+nav_order: 7
 ---
 # Zero Downtime Deployment with DB Migration
 <br>

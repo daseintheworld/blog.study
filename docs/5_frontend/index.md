@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "frontend (spa)"
+title: "frontend project"
 nav_order: 5
 has_children: true
 ---

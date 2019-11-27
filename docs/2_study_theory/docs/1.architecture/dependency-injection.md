@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "dependency injection"
-parent: "dotnet-core"
-grand_parent: "background"
-nav_order: 1
+title: "• dependency injection"
+grand_parent: "study(방법론)"
+parent: "architecture"
+nav_order: 2
 has_children: true
 
 ---

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "1. progress"
-parent: "architecture"
-grand_parent: "backend (msa)"
+title: "• progress"
+parent: "aws architecture"
+grand_parent: "backend project"
 nav_order: 1
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "https-1(최다영)"
-parent: "web"
-grand_parent: "background"
-nav_order: 1
+title: "• https-1(최다영)"
+parent: "infrastructure"
+grand_parent: "study(방법론)"
+nav_order: 3
 has_children: true
 
 ---
