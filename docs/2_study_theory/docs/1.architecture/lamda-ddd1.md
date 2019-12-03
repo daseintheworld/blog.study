@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "• lambda & DDD(박진경)"
+title: "• lambda&DDD1(박진경)"
 parent: "architecture"
 grand_parent: "study(방법론)"
 nav_order: 1

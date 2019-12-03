@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "• beanstalk&database(김혜수)"
+title: "• db-connection(김혜수)"
 parent: "infrastructure"
 grand_parent: "study(방법론)"
 nav_order: 5
@@ -90,13 +90,6 @@ RDS로 MySQL연결하면 한글이 하단처럼 깨진다.
 
 끝!
 ===
-
-
-
-
-
-
-
 
 
   [1]: https://winterandsnow.tistory.com/12

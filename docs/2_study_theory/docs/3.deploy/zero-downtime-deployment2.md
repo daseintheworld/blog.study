@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "• zero downtime2(김승용)"
+title: "• no downtime2(김승용)"
 parent: "deployment"
 grand_parent: "study(방법론)"
 nav_order: 7
