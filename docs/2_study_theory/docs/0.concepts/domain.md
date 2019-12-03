@@ -58,19 +58,19 @@ has_children: true
 domain driven design은 domain model을 이용하여 문제를 정의하도록 돕기 때문이다.
 <br><br>그리고 **domain model**이란
 <br><br>context(언어적 맥락), domain, model, **Ubiquitous language**로 구성되어있는 것이다
-<br><br><br>
+<br>
 ## ??????
-<br><br>
-...그 와중에 Ubiquitous language의 존재감이 심상찮다
-<br><br>**5.소통이 중요하다면서 왜 영어(이왕이면 한국어)가 아니고 ubiquitous language인가?**
+<br>
+그 와중에 Ubiquitous language의 존재감이 심상찮다
+<br><br>**왜 소통이 중요하다면서 영어(이왕이면 한국어)가 아니고 ubiquitous language라는걸 쓰나?**
 <br><br><br><br><br>
 
-### **5.Ubiquitous language**
+### **4. Ubiquitous language**
 <br>
 [martin fowler 성님 설명](https://martinfowler.com/bliki/UbiquitousLanguage.html)
 <br>
 <br>
-## **"응 Eric Evans가 걍 만든 말"**
+## **"응 Eric Evans가 걍 만든 말이야"**
 <br>
 <br>
 **martin fawler 왈:**
@@ -92,7 +92,7 @@ domain driven design은 domain model을 이용하여 문제를 정의하도록 �
 <br><br>-- 개발자는 모델 구조가 소프트웨어적으로 명확하지 않은지 살펴봐야됨.
 <br><br><br><br><br>
 
-### 6. 그런데, 우리가 만든 도메인 모델은?
+### **5. 그런데, 우리가 만든 도메인 모델은?**
 <br>기범 생각에는 [martin fawler가 말하는 Anemic Domain Model](https://martinfowler.com/bliki/AnemicDomainModel.html)에 매우 가깝다. 배다른 형제 수준.
 <br><br>
 anemic: 빈혈
