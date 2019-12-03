@@ -3,7 +3,7 @@ layout: default
 title: "• DDD - Bounded Context"
 grand_parent: "study(방법론)"
 parent: "concepts"
-nav_order: 2
+nav_order: 3
 has_children: true
 
 ---
