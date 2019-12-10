@@ -34,9 +34,10 @@ nav_order: 1
 <br>
 
 ### 기범
-[작업위치](https://www.lucidchart.com/invitations/accept/ce98f72c-3b1d-4c2f-b2c9-2e949ce4ceaf)
 <br>
 ![](https://user-images.githubusercontent.com/55048882/70283969-c0657880-1805-11ea-8b2a-71716ca30761.png)
+<br><br>
+[작업위치- lucid chart(login 필요)](https://www.lucidchart.com/invitations/accept/ce98f72c-3b1d-4c2f-b2c9-2e949ce4ceaf)
 <br><br>
 1. 중심 소재 설명
 * 문제
