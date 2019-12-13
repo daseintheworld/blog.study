@@ -60,4 +60,15 @@ nav_order: 1
 4. 각 주제가 (1)공유하는 개념과 (2)각자만이 가지는 개념 설명
 <br>(1) '경험', '분석'과 같은 것은 생각과 행위가 거의 동시에 이루어지는 것 같다.
 <br>(2) 생각을 순수하게 하는 건 '고민', '결정' 등등. 행동을 순수하게 하는건 '일', '탐색' 등등.
-<br>
+<br><br><br><br>
+### **최다영**
+![](https://user-images.githubusercontent.com/55048882/70767007-fde87980-1da2-11ea-8849-b70bcf880ee3.png)
+<br><br><br><br>
+### **김승용**
+![](https://user-images.githubusercontent.com/55048882/70767017-0771e180-1da3-11ea-8fa8-6cebd9b673d3.png)
+<br><br><br><br>
+### **김혜수**
+![](https://user-images.githubusercontent.com/55048882/70767024-0c369580-1da3-11ea-8d0d-51dbdc3dc643.png)
+<br><br><br><br>
+### **박진경**
+![](https://user-images.githubusercontent.com/55048882/70767288-0d1bf700-1da4-11ea-8113-73ff5a005048.png)
