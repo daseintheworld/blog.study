@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "• DDD - BoundedContext"
+title: "• DDD: BoundedContext1"
 grand_parent: "study(방법론)"
 parent: "concepts"
 nav_order: 3

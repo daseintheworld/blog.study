@@ -1,33 +1,72 @@
 ---
 layout: default
-title: "• DDD - Aggregate2"
+title: "• DDD: Aggregate2"
 grand_parent: "study(방법론)"
 parent: "concepts"
-nav_order: 5
+nav_order: 6
 has_children: true
-
 ---
 
-
-![](https://3.bp.blogspot.com/-NMgicII-Om4/WRaSUWBv42I/AAAAAAAAAyo/dQaSkoScdPATCm5BrXC3f3F34W-48lTqwCLcB/w1200-h630-p-k-no-nu/DDD-car-aggregate.png)
-
-2. Bounded Context는 어떻게 소통하는가?
+## 1. Aggregate 찾기
+<br>
+**지금까지는 martin fawler나 eric evans의 이야기들을 들으며 살펴보았지만 막상 aggregate를 만들 떄는 여러가지 노하우와 경험이 필요하다. 
+<br>특히 van vernon의 'DDD 구현하기' 책이 무척 도움된다.
 <br><br>
-Just to get a quick check. We're at a place now, we've clearly identified unified models are not great because having one model to rule them all is a bad idea, and we clearly understand that we need to have different context, and by having different contexts, models can live in the context and evolve freely and so on. What's the point of having all these contexts if we don't communicate between the contexts? In order to have cohesive behavior for your system to be an actual system, these contexts need to communicate. To me, that's where event-driven architecture comes in. You want to have this communication mechanism in such a way, it reduces complexity, it's loosely coupled, so you can evolve it and you can scale it, etc.
+그러나 권위자의 말 외에 일반 개발자들끼리 커뮤니티에서 나누는 대화가 발전하여 구체적인 개념을 구성하게 마련이다. 이번 문서에서는 그들의 이야기를 토대로 aggregate에 대한 아이디어를 만들어본다.
+<br><br>
+### **이름 모를 논객1**
+[출처(1번답변)](https://stackoverflow.com/questions/51243959/how-to-properly-define-an-aggregate-in-ddd)
+### **이름 모를 논객2**
+[출처(2번답변)](https://stackoverflow.com/questions/51243959/how-to-properly-define-an-aggregate-in-ddd)
+### **이름 모를 논객3**
+[출처(1번답변)](http://domain-driven-design.3010926.n2.nabble.com/Bounded-Contexts-and-Aggregates-td6460442.html)
+<br><br>
 
-To me, that's where messages and events come in. If we look at messages, you can classify them as commands or events. These are the two main category of messages that you can use to communicate between bounded context. Events are a message that conveys something of significance has happened in the business. It's used to communicate the state change from one bounded context to the other. Commands, on the other hand are convey intent, and commands can fail. That's the huge difference.
-
-Events are something that get published, so multiple subscribers are going to receive it, versus a command is usually sent to one particular service or context or something. Typically, you want to use events as a communication mechanism between bounded contexts. You can use commands as a way to decouple or have loosely coupled communication style within the bounded context. The one thing about commands is that it can fail. Has everyone watched "300" in this room? When Xerxes sends his messenger to Sparta, to Leonidas and say, "You shall bend your knee to Xerxes," it didn't go so well. If you think about bounded context, they are two separate things, and they don't tell each other what to do. You can think about bounded context as isolated things. They do communicate but using events.
-
-I want to take example of a business process, just to walk through how we would do this with domain-driven design and have this communication using events. The requirement is when an aircraft type has changed, the aircraft company wants to notify the passenger saying, "You have a new booking proposal." The passenger has the right to either accept it or cancel it,
-
-This is an example Norwegian sent me, very kindly said, "Sorry, we canceled your flight to Rome, here's your new flight. If you want it, then you can take it. Otherwise, you can get your money back." A business process, if you look at it, it can be triggered by an event from one bounded context to the other. You've got the flight planning context saying that, "This aircraft flight has changed." The booking context can now receive that event and then go and act on whatever it needs to do. The keyword here is when.
-
-When the domain experts or the people in the business starts to use the language when and then start describing something, there's usually event that follows that you can get out of. The thing to understand here is we said that messages help you design your systems to be loosely coupled. The whole point is we don't want to be coupled. However, we do have to be careful in how we design these schemas because when you send messages over from one context to the other context, you are going to be sharing the schema. It becomes really important what you put in those events and what you put in those messages. You could put a lot of information from one bounded context in that event, and now you are definitely coupled via the event.
-
-What happens when this flight planning bounded context changes the schema of the event? How is that going to affect this booking context? You have to ask yourself and be very intentional about the data that is being shared from one bounded context to the other. Just because we use events and messages doesn't automatically give you Nirvana and happiness. We still need to pay attention to what we put in the messages and how we design the schema.
-
-The other thing is, the business processes, there could be multiple messages that takes part in the same process. The booking context receives the aircraft type has changed event, but then internally it might need to do a lot of things, which might involve sending messages, "We need to rebook this flight, and we need to notify this customer," and "what happens when the customer said, "No, I don't want this. Go ahead and cancel this booking"? There's a lot of events that are going to participate in that same process.
-
-When you have a lot of messages that are participating in the same process, you might have to have state involved, because based on the state, if the customer canceled, then you don't need to send the customer a rebooking email or whatever because they canceled it. Based on the state, you are going to take certain decisions, different decisions. It's important how we manage the state, and that's where we have this pattern called sagas, and it can come in handy.
+## 2. 순서
+<br><br>
+* step0 한 개의 Bounded context에서 출발
+<br><br>
+* step1 마음을 비운다. 일단 entity나 v.o, class, method 등등의 프로그래밍은 생각치 않는다!!!
+<br><br>
+* step2 Bounded context 내의 한 묶음의 행위들을 나열해본다.
+<br><br>
+* step3 이 행위들로 Aggregate 이름을 짓고 거기 들어가야 할 개념을 **마구 흩뿌려보자**
+<br><br>
+* step4 (1)행위, (2)행위가 바꾸는 내용, (3)행위가 '품고' 있어야할 내용을 찾는다.
+<br><br>
+* step5 행위1, aggregate1, 트랜잭션1로만 활동한다는 것을 이해하고, 필요한 것을 넣고 필요 없는 것을 빼자!
 <br><br><br><br>
+(1) 행위 - 도메인의 언어로 하자
+<br>xxx라는 화장품 데이터의 용량을 업데이트한다(X)
+<br>xxx 화장품을 약간 쓴다(O)
+<br><br>
+(2) 행위가 바꿀 내용
+<br>화장품은 기본으로 알고 있고, 거기에 용량 정보가 들어갈듯 (O)
+<br>혹시 모르니까 화장품 유통기한도 넣자 (X)
+<br><br>
+(3) 행위가 품는 내용
+<br>얼만큼 썼다(O)
+<br>혹시 모르니까 쓰고나서 얼마나 예뻐졌는지도 알려주자 (X)
+<br><br><br><br>
+## 3. master - detail 관계에서 Aggregate 구성
+<br><br>
+매우 심플하지만 2년 내내 고민해왔던 아주 기본적인 구성에 대해서 논해봅니다.
+<br><br>
+**문제**
+<br>
+* master는 aggregate라 치고... **detail은 aggregate냐 아니냐?**
+<br>
+* ex. 다영 책임의 화장품 계획, 화장품 아이템
+- 관계 짓는 규칙이 있음: '계획 1 => 아이템 max 10개' or '계획은 아이템의 가격을 알고 있음' 등등
+- 그러므로 계획 aggregate에 아이템 개념을 넣고, '아이템들'을 포함했다.
+- 근데 생각해보니 아이템은 각각 화장품이라서 아주 비대해질 수 밖에 없다.
+- 그래서 아이템을 계획에서 분리시켜서 aggregate로 정의한다.
+- **아니 근데 규칙상 계획은 아이템의 가격을 알아야되잖아!!!**
+- 무한 loop
+<br><br>
+그림들
+<br><br>
+- Bounded context의 shared 개념이 쓰여야하는 것이다.
+- 계획은 아이템을 하단에 가지되, 필수적으로 알아야할 것들만 안다.
+- 계획 아래의 아이템은 (id, 가격)만 안다.
+- 계획이 아이템 추가 --> 아이템 aggregate가 추가. 둘 사이의 간극이 있다. (consistency 문제)

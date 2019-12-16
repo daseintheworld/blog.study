@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "• DDD - Domain"
+title: "• DDD: Domain"
 grand_parent: "study(방법론)"
 parent: "concepts"
 nav_order: 1

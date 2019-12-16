@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "• DDD - Aggregate1"
+title: "• DDD: Aggregate1"
 grand_parent: "study(방법론)"
 parent: "concepts"
-nav_order: 4
+nav_order: 5
 has_children: true
 
 ---
@@ -55,23 +55,7 @@ has_children: true
 ### **Event-driven 방식으로 소통하여 그 갭을 메꾼다 : Eventual Consistency**
 <br><br><br>
 
-## 2. Bounded Contexts + Events => Microservices
-<br>
-[infoq 강의](https://www.infoq.com/presentations/microservices-ddd-bounded-contexts/)(50분, 스크립트 있음)
-<br><br><br>
-![](https://www.codeproject.com/KB/architecture/1176046/Domain-Events-02.png)
-<br><br>
-1. Boundary 찾기
-* context를 찾아내는 방법이 여러가지 있는데 가장 까다롭고 어려운 부분이다.
-<br><br>
-* 내가 쓰는 방법은 "이 몇가지 필드(fields)를 업데이트 했을 때 '트랜잭션의 일관성'(transactional consistency)을 꼭 유지시켜야하는가?"를 묻는 것이다. 예를 들어 상품 설명을 업데이트해도 상품이 진열 가능한지 여부와는 상관 없을 것이다.
-<br><br>
-* 또다른 방법은 팀에 자연스럽게 경계/규칙/비즈니스 행위들이 이미 있고 그게 중요하다고 다들 인식하는 상태라면 좋은 출발지점으로 삼을 수 있다. (우리 Cloud HIS 프로젝트의 유일한 -하지만 매우 강력한- 강점)
-<br><br>
-* 또한 비즈니스 프로세스를 생각해볼 수 있다. DDD에서 강하게 추천하는 것이 바로 행위(behavior)이다. 비즈니스의 재밌는 부분은 행위에 있고 그걸 코드에 녹였을 때 비즈니스와 같이가는 모델을 만들 수 있다.
-<br><br><br><br>
-
-## 3. Consistency 문제의 등장
+## 2. Consistency 문제의 등장
 <br><br>
 -- BESTCare2.0은 서비스적으로나 시스템적으로 'whole in one.' 트랜잭션 하나에서 말 그대로 모든 database가 접근이 가능했다.
 <br>
