@@ -31,4 +31,5 @@ nav_order: 2
 <br><br>
 * 각 Aggregate에서 쏴야하는 event 목록 (행위들을 모아서 적당히 aggregate를 만든다)
 <br><br><br>
+
 ### **기범**

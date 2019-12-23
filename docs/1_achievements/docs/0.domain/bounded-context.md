@@ -35,7 +35,7 @@ nav_order: 1
 
 ### 기범
 <br>
-![](https://user-images.githubusercontent.com/55048882/70283969-c0657880-1805-11ea-8b2a-71716ca30761.png)
+![image](https://user-images.githubusercontent.com/55048882/71132763-cdd62600-223b-11ea-9f1a-0f03c2d6b51c.png)
 <br><br>
 [작업위치- lucid chart(login 필요)](https://www.lucidchart.com/invitations/accept/ce98f72c-3b1d-4c2f-b2c9-2e949ce4ceaf)
 <br><br>
@@ -47,9 +47,11 @@ nav_order: 1
 <br>-- 삶의 궤적을 기록, 돕는 도메인 만들기
 <br>
 2. 주제들 설명
-* thinking
-<br>-- 내가 생각하던 사실, 흐름, 연관 자료의 위치, 미래의 컨텐츠 등을 기록하고 이를 돕는 기능을 만든다
-* doing
+* progress
+<br>-- 내가 하던 것에 대해 과거로부터 이어지는 흐름을 기록
+* experience
+<br>-- 내가 경험한 것에 대한 단발성의 기록 (주로 몇 시간 - 하루 단위)
+* content
 <br>-- 내가 하던 것, 그 과정, 참조 자료의 위치, 해야할 일 등을 기록하고 돕는 기능을 만든다
 <br>
 3. 주제들끼리 경계(bound) 설명
