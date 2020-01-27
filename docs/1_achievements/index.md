@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "성과물"
+title: "성과"
 nav_order: 1
 has_children: true
 ---
