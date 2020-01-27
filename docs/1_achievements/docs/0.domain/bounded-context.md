@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "• Bounded Context"
-grand_parent: "성과물"
+grand_parent: "성과"
 parent: "domain"
 nav_order: 1
 
@@ -30,7 +30,7 @@ nav_order: 1
 ![](https://jaxenter.de/wp-content/uploads/2013/09/kernland_ddd_2.jpg)
 <br><br>
 
-## 2. 성과물
+## 2. 성과
 <br>
 
 ### 기범

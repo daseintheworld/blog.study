@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "• Aggregate1"
-grand_parent: "성과물"
+grand_parent: "성과"
 parent: "domain"
 nav_order: 2
 
@@ -24,7 +24,7 @@ nav_order: 2
 
 * step5 행위 1 : aggregate 1 : 트랜잭션 1 로만 기능한다는 것을 염두하고, 필요한 것만 넣고 필요 없는 것을 빼자!
 <br><br>
-## 2. 성과물
+## 2. 성과
 * 각 Bounded context 당 행위들 목록
 <br><br>
 * 각 행위에 대해 가질 상태 목록
