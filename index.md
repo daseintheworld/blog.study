@@ -8,51 +8,37 @@ nav_order: 0
 
 ## 목적
 
-* ORM library인 Ef-core를 연습한다.
+* 업무 중 사용하는 도구, 라이브러리에 대해서 정확하게 이해한다.
 
-* Domain-Driven Design를 기반으로 한 Reactive Architecture를 이용해 간단한 Backend 서비스를 만든다.
+* Cloud 아키텍처를 이해하고 발전 방향을 공유한다.
 
-* rxjs, ngrx를 기반으로 한 Reactive Structure의 Frontend 서비스를 만든다.
+* 실용적인 스터디를 진행해 최소한의 성과물을 만들어본다.
+<br><br><br>
 
-* aws에 backend, frontend 서비스를 올린다.
+## 과정
 
+1. **git, github** (2019년 7월)
 <br>
 
-## 계획
+2. **ef core** (2019년 8~9월)
+<br>
 
-### 1. **git, github**
+3. **aws overview, lambda** (2019년 10월)
+<br>
 
-8월 진행 내용을 채울 예정
+4. **aws and dotnet core** (2019년 10월)
+<br>
 
-### 2. **ef core**
+5. **DDD and reactive architecture**(2019년 12월~2020년 1월)
+<br>
 
-8~9월 진행 내용을 채울 예정
-
-### 3. **aws basic study**
-
-10월 진행 내용을 채울 예정
-
-### 4. **aws and .net core backend**
-
-- background : dependency injection
-- lambda & dotnet core tutorial 1
-- lambda & dotnet core tutorial 2
-- lambda & dotnet core tutorial 3
-
-### 5. **DDD and reactive architecture**
-
-- DDD: Concept, Aggregate
-- DDD: Entity, Value Object
-- ORM: ef core setting
-- Service: CRUD
-- buffer
-
-### 6. **DDD and reactive architecture**
-
-TBD
-
-### 7. **angular architecture**
-
-TBD
-
-
+etc. **단발성 practical studies**(2019년 8월~12월)
+- aws deployment
+<br>
+- no downtime deployment
+<br>
+- https
+<br>
+- aws db connection
+<br>
+- architecture overview
